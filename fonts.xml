@@ -23,48 +23,49 @@
 -->
 <familyset version="23">
     <!-- first font is default -->
-	<family name="sans-serif">
-	<font weight="400" style="normal">GoogleSans-Regular.ttf
-	  <axis tag="GRAD" stylevalue="0"/>
-	  <axis tag="opsz" stylevalue="17.0"/>
-	  <axis tag="wght" stylevalue="400"/>
-	</font>
-	<font weight="500" style="normal">GoogleSans-Regular.ttf
-          <axis tag="GRAD" stylevalue="0"/>
-          <axis tag="opsz" stylevalue="18.0"/>
-          <axis tag="wght" stylevalue="500"/>
-	</font>
-	<font weight="600" style="normal">GoogleSans-Regular.ttf
-          <axis tag="GRAD" stylevalue="0"/>
-          <axis tag="opsz" stylevalue="18.0"/>
-          <axis tag="wght" stylevalue="600"/>
-	</font>
-	<font weight="700" style="normal">GoogleSans-Regular.ttf
-	  <axis tag="GRAD" stylevalue="0"/>
-	  <axis tag="opsz" stylevalue="18.0"/>
-	  <axis tag="wght" stylevalue="700"/>
-	</font>
-	<font weight="400" style="italic">GoogleSans-Italic.ttf
-	  <axis tag="GRAD" stylevalue="0"/>
-	  <axis tag="opsz" stylevalue="17.0"/>
-	  <axis tag="wght" stylevalue="400"/>
-	</font>
-	<font weight="500" style="italic">GoogleSans-Italic.ttf
-	  <axis tag="GRAD" stylevalue="0"/>
-	  <axis tag="opsz" stylevalue="18.0"/>
-	  <axis tag="wght" stylevalue="500"/>
-	</font>
-	<font weight="600" style="italic">GoogleSans-Italic.ttf
-	  <axis tag="GRAD" stylevalue="0"/>
-	  <axis tag="opsz" stylevalue="18.0"/>
-	  <axis tag="wght" stylevalue="600"/>
-	</font>
-	<font weight="700" style="italic">GoogleSans-Italic.ttf
-	  <axis tag="GRAD" stylevalue="0"/>
-	  <axis tag="opsz" stylevalue="18.0"/>
-	  <axis tag="wght" stylevalue="700"/>
-	</font>
-    </family>
+    <family name="sans-serif">
+        <font weight="400" style="normal">GoogleSans-Regular.ttf
+            <axis tag="GRAD" stylevalue="0"/>
+            <axis tag="opsz" stylevalue="17.0"/>
+            <axis tag="wght" stylevalue="400"/>
+        </font>
+        <font weight="500" style="normal">GoogleSans-Regular.ttf
+            <axis tag="GRAD" stylevalue="0"/>
+            <axis tag="opsz" stylevalue="18.0"/>
+            <axis tag="wght" stylevalue="500"/>
+        </font>
+        <font weight="600" style="normal">GoogleSans-Regular.ttf
+            <axis tag="GRAD" stylevalue="0"/>
+            <axis tag="opsz" stylevalue="18.0"/>
+            <axis tag="wght" stylevalue="600"/>
+        </font>
+        <font weight="700" style="normal">GoogleSans-Regular.ttf
+            <axis tag="GRAD" stylevalue="0"/>
+            <axis tag="opsz" stylevalue="18.0"/>
+            <axis tag="wght" stylevalue="700"/>
+        </font>
+        <font weight="400" style="italic">GoogleSans-Italic.ttf
+            <axis tag="GRAD" stylevalue="0"/>
+            <axis tag="opsz" stylevalue="17.0"/>
+            <axis tag="wght" stylevalue="400"/>
+        </font>
+        <font weight="500" style="italic">GoogleSans-Italic.ttf
+            <axis tag="GRAD" stylevalue="0"/>
+            <axis tag="opsz" stylevalue="18.0"/>
+            <axis tag="wght" stylevalue="500"/>
+        </font>
+        <font weight="600" style="italic">GoogleSans-Italic.ttf
+            <axis tag="GRAD" stylevalue="0"/>
+            <axis tag="opsz" stylevalue="18.0"/>
+            <axis tag="wght" stylevalue="600"/>
+        </font>
+        <font weight="700" style="italic">GoogleSans-Italic.ttf
+            <axis tag="GRAD" stylevalue="0"/>
+            <axis tag="opsz" stylevalue="18.0"/>
+            <axis tag="wght" stylevalue="700"/>
+        </font>
+   </family>
+  
 
     <!-- Note that aliases must come after the fonts they reference. -->
     <alias name="sans-serif-thin" to="sans-serif" weight="100" />
@@ -200,16 +201,13 @@
     <alias name="courier new" to="serif-monospace" />
 
     <family name="casual">
-        <font weight="400" style="normal" postScriptName="ComingSoon-Regular">ComingSoon.ttf</font>
+        <font weight="400" style="normal">ComingSoon.ttf</font>
     </family>
 
     <family name="cursive">
-      <font weight="400" style="normal">DancingScript-Regular.ttf
-        <axis tag="wght" stylevalue="400" />
-      </font>
-      <font weight="700" style="normal">DancingScript-Regular.ttf
-        <axis tag="wght" stylevalue="700" />
-      </font>
+        <font weight="400" style="normal" postScriptName="DancingScript">DancingScript-Regular.ttf
+        </font>
+        <font weight="700" style="normal">DancingScript-Bold.ttf</font>
     </family>
 
     <family name="sans-serif-smallcaps">
@@ -1494,7 +1492,7 @@
             <axis tag="wght" stylevalue="700"/>
         </font>
     </family>
-    <family name="sans-serif-origin">
+	<family>
         <font weight="100" style="normal">Roboto-Regular.ttf
           <axis tag="ital" stylevalue="0" />
           <axis tag="wdth" stylevalue="100" />

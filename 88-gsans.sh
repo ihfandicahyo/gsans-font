@@ -12,6 +12,7 @@
 list_files() {
 cat <<EOF
 etc/fonts.xml
+fonts/GoogleSansFlex-Regular.ttf
 fonts/GoogleSans-Italic.ttf
 fonts/GoogleSans-Regular.ttf
 EOF
